@@ -6,7 +6,7 @@
 /*   By: shamzaou <shamzaou@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 07:30:20 by shamzaou          #+#    #+#             */
-/*   Updated: 2024/02/19 09:57:29 by shamzaou         ###   ########.fr       */
+/*   Updated: 2024/02/19 12:34:09 by shamzaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,10 @@ typedef struct s_map
     char    *west;
     char    *east;
     char    *floor_rgb;
+    char    *ceiling_rgb;
     char    **grid;
+    char    **whole_file;
+    int     nlines;
 }       t_map;
 
 typedef struct s_player
